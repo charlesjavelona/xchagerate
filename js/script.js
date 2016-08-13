@@ -10,7 +10,7 @@ $(document).on("pagecreate",function(){
 		var inputValue = $('#newNote').val();
 		
 		//GET rates using Ajax from http://api.fixer.io/latest?base=CAD
-   		 $.getJSON("http://api.fixer.io/latest?base=CAD", function(data) {
+   		 $.getJSON("https://api.fixer.io/latest?base=CAD", function(data) {
 			//Empty the mainList for new data 
 			mainList.empty();
       			//Pass keys of JSON object
