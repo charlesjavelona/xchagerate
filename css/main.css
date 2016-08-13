@@ -1,0 +1,16 @@
+.mybutton {
+	display: none;
+	margin: auto;
+	float: right;
+}
+
+.selected {
+	background-color: #9E9E9E !important;
+	color: white !important;
+}
+
+body {
+	text-align: center;
+}
+
+
